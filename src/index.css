@@ -6,7 +6,91 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.container{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.row{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.mainDiv{
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  margin: auto;  
+}
+.colorDiv{
+  height: 500px;
+  width: 900px;
+  margin: auto;
+  border-style: double;
+  border-color: black;
+}
+.bg-info{
+  background-color: rgba(115, 219, 240, 0.956);
+}
+.header{
+  font-size: 30px;
+  text-align: center; 
+}
+.centerAlign{
+  text-align: center;
+}
+.border{
+  border-width: 5px;
+  border-color: black;
+}
+.btn{
+  background-color: rgb(165, 165, 172);
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  margin:10px;
+}
+.btnRow{
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+.orangeBtn{
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: orange;
+  font-weight: bold;
+}
+.primaryBtn{
+  background-color: rgb(49, 49, 242);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin:10px;
+}
+.darkBtn{
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+.p-2{
+  padding: 20px;
+}
+.ml-r{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mb-2{
+  margin-bottom: 20px;
+}
+.mt-1{
+  margin-top: 10px;
+}
+.fontSmall{
+  font-size: medium;
+}
+.m-2{
+  margin: 40px;
+  height: 60px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
